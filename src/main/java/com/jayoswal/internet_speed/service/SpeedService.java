@@ -18,9 +18,4 @@ public class SpeedService {
         speedRepository.save(speed);
         System.out.println(speed.toString());
     }
-
-    public double getUploadSpeed(){
-        // TODO - calculate real speed
-        return Math.random() * 100;
-    }
 }
